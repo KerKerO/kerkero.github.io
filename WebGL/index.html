@@ -25,15 +25,15 @@
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebGL.loader.js";
+      const loaderUrl = buildUrl + "/Build.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebGL.data",
-        frameworkUrl: buildUrl + "/WebGL.framework.js",
-        codeUrl: buildUrl + "/WebGL.wasm",
+        dataUrl: buildUrl + "/Build.data",
+        frameworkUrl: buildUrl + "/Build.framework.js",
+        codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "krkr",
+        companyName: "Alchemy AR",
         productName: "CAPITAL CENTRE",
-        productVersion: "1.0",
+        productVersion: "1.0.2",
       };
 
       const container = document.querySelector("#unity-container");
@@ -63,7 +63,7 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       }
-      canvas.style.background = "url('" + buildUrl + "/WebGL.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Build.jpg') center / cover";
       loadingCover.style.display = "";
 
       const script = document.createElement("script");
