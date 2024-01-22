@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #5b6670;
 }
 #unity-loading-bar {
     flex: 1 1 auto;
@@ -47,17 +48,17 @@ body {
 }
 #unity-progress-bar-empty {
     width: 80%;
-    height: 24px;
+    height: 15px;
     margin: 10px 20px 20px 10px;
     text-align: left;
-    border: 1px solid white;
-    padding: 2px;
-    background: #2a94b1;
+    border: 0px solid white;
+    padding: 0px;
+    background: #535d67;
 }
 #unity-progress-bar-full {
     width: 0%;
     height: 100%;
-    background: #33d4ff;
+    background: #9e4a48;
 }
 .light #unity-progress-bar-empty {
     border-color: black;
