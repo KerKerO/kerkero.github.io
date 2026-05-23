@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "title": "Discord",
+      "value": "discord.gg/3zHv6fk",
+      "url": "https://discord.gg/3zHv6fk",
+      "icon": "D",
+      "image": "assets/discord.png"
+    },
+    {
+      "title": "VK",
+      "value": "vk.com/anea_duo_dev",
+      "url": "https://vk.com/anea_duo_dev",
+      "icon": "VK",
+      "image": "assets/vk.png"
+    }
+  ]
+}

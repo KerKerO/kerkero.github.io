@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "title": "ICED",
+      "description": "Cold survival experience.",
+      "url": "https://store.steampowered.com/app/575570/ICED/",
+      "platform": "Steam",
+      "tags": [
+        "Survival"
+      ],
+      "symbol": "I",
+      "accent": "cyan"
+    },
+    {
+      "title": "ICED VR",
+      "description": "Survival in virtual reality.",
+      "url": "https://store.steampowered.com/app/832420/ICED_VR/",
+      "platform": "Steam",
+      "tags": [
+        "VR",
+        "Survival"
+      ],
+      "symbol": "VR",
+      "accent": "pink"
+    },
+    {
+      "title": "Moto VR",
+      "description": "VR motorcycle ride.",
+      "url": "https://store.steampowered.com/app/713500/Moto_VR/",
+      "platform": "Steam",
+      "tags": [
+        "VR",
+        "Racing"
+      ],
+      "symbol": "M",
+      "accent": "yellow"
+    },
+    {
+      "title": "CrazyCars3D",
+      "description": "Arcade car action.",
+      "url": "https://store.steampowered.com/app/454180/CrazyCars3D/",
+      "platform": "Steam",
+      "tags": [
+        "Racing",
+        "Arcade"
+      ],
+      "symbol": "C",
+      "accent": "red"
+    }
+  ]
+}
